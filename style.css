@@ -1,0 +1,170 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(back.jpg) no-repeat;
+  background-size: cover;
+}
+
+.login-box{
+	width: 700px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #ffc000;
+	z-index: 0;
+	background-color: rgba(255,255,255, 0.9) ;
+    align-content: center;
+}
+ 
+.textbox{
+  width: 80%;
+  overflow: hidden;
+  font-size: 30px;
+  padding: 50px 0 8px;
+  margin: 0;
+  border-bottom: 1px solid #00b050;
+  transition-duration: 0.5s;
+}
+.login-box h1{
+    width: 80%;
+  overflow: hidden;
+  font-size: 60px;
+  padding: 8px 0;
+  margin: 8px 0;
+  transition-duration: 0.5s;
+    height: 60px;
+     
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 20px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.textbox:hover{
+  position: relative; 
+  top: -1px;
+}
+.btn{
+  width: 80%;
+  background: none;
+  border: 2px solid #00b050;
+  color: #00b050;
+  padding: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 20px 0 12px;
+  transition-duration: 0.5s;
+}
+
+.btn:hover{
+  position: relative; 
+  top: -2px;
+    background: 
+} 
+
+.register{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.register a{
+    color: #ffc000;
+    text-decoration: none;
+    background: transparent;
+    border: 2px solid #00b050;
+    padding: 8px 8px;
+    border-radius: 30px;
+
+}
+
+/**********************************/
+/*********** Nav Bar CSS **********/
+/**********************************/
+.nav {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .nav .container-fluid {
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+}
+
+.nav .navbar {
+    height: 100%;
+    padding: 0;
+}
+
+.nav .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #00b050;
+}
+
+.nav .dropdown-menu a.active {
+    color: #353535;
+    background: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+    .nav,
+    .nav .navbar {
+        background: #00b050 !important;
+    }
+    
+    .nav .navbar-brand {
+        display: none;
+    }
+    
+    .nav .navbar-dark a.nav-link {
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+    .nav .navbar-dark a.nav-link:hover,
+    .nav .navbar-dark a.nav-link.active {
+        color: #000000;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 5px 0;
+    }
+    
+    .nav,
+    .nav .navbar {
+        background: #000000 !important;
+    }
+    
+    .nav a.nav-link {
+        padding: 5px 0;
+    }
+    
+    .nav .dropdown-menu {
+        box-shadow: none;
+    }
+}
+class-middle-details{
+    background: #00b050;
+    text-align: center;
+    color: white;
+}
